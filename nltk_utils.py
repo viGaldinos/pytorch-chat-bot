@@ -26,8 +26,3 @@ def bag_of_words(tokenized_sentence, all_words):
         bag[idx] = 1.0
 
     return bag
-
-# a = "How long does shipping take?"
-# print(a)
-# a = tokenize(a)
-# print(a)
